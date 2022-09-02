@@ -3,8 +3,12 @@
     border: 3px solid;
     margin: 0 auto;
     padding: 32px 16px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "logo . topics topics"
+    "logo . . search";
 }
 
 .logo{
@@ -14,13 +18,28 @@
     font-weight: 900;
     font-size: 72px;
     display: inline-block;
+    grid-area: logo;
 }
 
 .topics{
+    grid-area: topics;
     display: flex;
     justify-content: space-between;
+
 }
 
 h5{
     margin-right: 32px;
 }
+
+.search{
+    grid-area: search;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    height: 30px;
+}
+

@@ -10,6 +10,9 @@ const Header = () =>{
                 <h5>Topic 3</h5>
                 <h5>Topic 4</h5>
             </div>
+            <div className='search'>
+            <input placeholder='Search' type="search" />
+            </div>
         </div>
     )
 }
