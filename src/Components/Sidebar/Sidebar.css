@@ -1,0 +1,10 @@
+.sidebar{
+    float: right;
+    width: 10%;
+    border: 3px solid;
+    padding: 32px 16px;
+    display: flex;
+    vertical-align: top;
+    flex-direction: column;
+    justify-content: space-around;
+}

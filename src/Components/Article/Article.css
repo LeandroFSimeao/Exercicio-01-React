@@ -1,3 +1,14 @@
+.article{
+    display: block;
+}
+
 .article img{
-    width: 200px;
+    float: left;
+    width: 300px;
+    margin: 0 16px;
+
+}
+
+.article p{
+    display: block;
 }

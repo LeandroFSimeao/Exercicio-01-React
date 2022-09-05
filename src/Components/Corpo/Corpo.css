@@ -1,0 +1,13 @@
+.corpo{
+    width: 70%;
+    border: 3px solid;
+    margin: 0;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+     justify-content: space-around;
+   
+}

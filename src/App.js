@@ -1,4 +1,5 @@
 import Article from "./Components/Article";
+import Corpo from "./Components/Corpo";
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
 
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Menu />
-      <Article />
+      <Corpo />
     </div>
   );
 }
